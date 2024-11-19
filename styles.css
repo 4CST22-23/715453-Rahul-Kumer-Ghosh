@@ -1,0 +1,30 @@
+/* Basic Styling - Customize to match the design */
+body {
+    font-family: sans-serif;
+    background-color: #222; /* Dark background */
+    color: white;
+}
+
+.weather-widget {
+    display: flex;
+    width: 800px; /* Adjust width as needed */
+    margin: 0 auto;
+    background-color: #111; /* Even darker background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Add a shadow */
+}
+
+.sidebar {
+    /* Style the left sidebar */
+}
+
+.main-content {
+    /* Style the middle section with current weather */
+    padding: 20px;
+}
+
+.extended-forecast {
+    /* Style the right side with extended forecast */
+}
+
+/* Style other elements like .location, .current-temp, .forecast, .details, etc. */
